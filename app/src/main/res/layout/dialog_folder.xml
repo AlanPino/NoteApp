@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorOnSecondary"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp">
+
+    <EditText
+        android:id="@+id/etFolder"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="@string/input_name"
+        android:textColor="?attr/textFillColor"
+        android:textColorHint="?attr/background" />
+
+
+    <Button
+        android:id="@+id/btnCreateFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/transparent"
+        android:text="@string/create"
+        android:textColor="?attr/textFillColor" />
+
+
+</LinearLayout>

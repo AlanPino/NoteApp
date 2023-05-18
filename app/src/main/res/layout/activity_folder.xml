@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background"
+    android:orientation="vertical"
+    tools:context=".FolderActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorOnSecondary"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp">
+
+            <TextView
+                android:id="@+id/tvBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/banner"
+                android:textColor="?attr/textFillColor"
+                android:textSize="30sp"
+                android:layout_marginTop="10dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageButton
+                android:id="@+id/btnOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:padding="6dp"
+                android:src="@drawable/menu"
+                app:tint="?attr/textFillColor" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFolders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="30dp"
+        android:src="@drawable/add"
+        app:backgroundTint="?attr/colorOnSecondary"
+        app:tint="?attr/textFillColor"
+        android:contentDescription="TODO" />
+</FrameLayout>

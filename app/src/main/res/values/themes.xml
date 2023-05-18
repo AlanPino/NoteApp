@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NoteApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#FF0000</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorOnSecondary</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="Theme.NoteApp.Theme1">
+        <item name="background">@color/background1</item>
+        <item name="colorOnSecondary">@color/shapes1</item>
+        <item name="textFillColor">@color/text1</item>
+        <item name="android:statusBarColor">@color/shapes1</item>
+        <item name="popupMenuBackground">@color/shapes1</item>
+    </style>
+
+    <style name="Theme.NoteApp.Theme2">
+        <item name="background">@color/background2</item>
+        <item name="colorOnSecondary">@color/shapes2</item>
+        <item name="textFillColor">@color/text2</item>
+        <item name="android:statusBarColor">@color/shapes2</item>
+        <item name="popupMenuBackground">@color/shapes2</item>
+    </style>
+
+    <style name="Theme.NoteApp.Theme3">
+        <item name="background">@color/background3</item>
+        <item name="colorOnSecondary">@color/shapes3</item>
+        <item name="textFillColor">@color/text3</item>
+        <item name="android:statusBarColor">@color/shapes3</item>
+        <item name="popupMenuBackground">@color/shapes3</item>
+    </style>
+
+    <style name="Theme.NoteApp.Theme4">
+        <item name="background">@color/background4</item>
+        <item name="colorOnSecondary">@color/shapes4</item>
+        <item name="textFillColor">@color/text4</item>
+        <item name="android:statusBarColor">@color/shapes4</item>
+        <item name="popupMenuBackground">@color/shapes4</item>
+    </style>
+
+    <style name="Theme.NoteApp.Theme5">
+        <item name="background">@color/background5</item>
+        <item name="colorOnSecondary">@color/shapes5</item>
+        <item name="textFillColor">@color/text5</item>
+        <item name="android:statusBarColor">@color/shapes5</item>
+        <item name="popupMenuBackground">@color/shapes5</item>
+    </style>
+</resources>

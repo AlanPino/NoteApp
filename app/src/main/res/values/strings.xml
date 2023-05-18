@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="banner">mi app de notas</string>
+    <string name="create">crear</string>
+    <string name="input_name">inserte el nombre</string>
+    <string name="note">nota</string>
+    <string name="notes">notas</string>
+    <string name="list">lista</string>
+    <string name="lists">listas</string>
+</resources>
